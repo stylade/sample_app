@@ -8,11 +8,17 @@ gem 'rails', '3.2.3'
 gem 'sqlite3'
 
 group :development do
-	gem 'rspec-rails', '2.0.0'
+	gem 'spork'
+	gem 'autotest'
+	gem 'webrat'
+	gem 'rspec-rails', '2.5.0'
 end
 
 group :test do
-	gem 'rspec', '2.0.0'
+	gem 'spork'
+	gem 'autotest'
+	gem 'webrat'
+	gem 'rspec', '2.5.0'
 end
 
 # Gems used only for assets and not required
