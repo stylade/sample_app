@@ -11,14 +11,14 @@ group :development do
 	gem 'spork'
 	gem 'autotest'
 	gem 'webrat'
-	gem 'rspec-rails', '2.5.0'
+	gem 'rspec-rails', '2.9.0'
 end
 
 group :test do
 	gem 'spork'
 	gem 'autotest'
 	gem 'webrat'
-	gem 'rspec', '2.5.0'
+	gem 'rspec', '2.9.0'
 end
 
 # Gems used only for assets and not required
