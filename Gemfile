@@ -21,6 +21,11 @@ group :test do
 	gem 'rspec', '2.9.0'
 end
 
+group :production do
+  # gems specifically for Heroku go here
+  gem "pg"
+end
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
