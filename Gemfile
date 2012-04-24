@@ -21,6 +21,7 @@ group :test do
 	gem 'autotest'
 	gem 'webrat'
 	gem 'rspec', '2.9.0'
+	gem 'factory_girl_rails'
 end
 
 group :production do
