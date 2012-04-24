@@ -12,7 +12,9 @@ group :development do
 	gem 'autotest'
 	gem 'webrat'
 	gem 'rspec-rails', '2.9.0'
-end
+	gem 'annotate',
+		:git => 'git://github.com/jeremyolliver/annotate_models.git', 
+	    :branch => 'rake_compatibility'end
 
 group :test do
 	gem 'spork'
